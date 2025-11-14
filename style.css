@@ -1,17 +1,16 @@
-body {
-    font-family: Arial;
-    background: #f4f7ff;
-}
 
-.container {
-    width: 450px;
-    margin: 40px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-}
-
-table {
-    width: 100%;
-    margin-top: 15px;
-}
+body { font-family: Inter, Arial, sans-serif; background:#e8eaf6; margin:0; }
+.dashboard-container { display:flex; min-height:100vh; }
+.sidebar { width:260px; background:#0e0e0e; color:#fff; padding:28px; border-radius:0 12px 12px 0; }
+.sidebar .profile img{width:72px;height:72px;border-radius:50%;display:block;margin:0 auto;}
+.sidebar nav a{display:block;color:#bdbdbd;text-decoration:none;padding:10px;border-radius:8px;margin:8px 0;}
+.sidebar nav a.active, .sidebar nav a:hover{background:#15151a;color:#fff;}
+.content-area{flex:1;background:#fff;padding:28px;border-radius:0 12px 12px 0;}
+.section-title{font-size:26px;margin:0;}
+.chart-box{background:#f7f9ff;padding:16px;border-radius:12px;margin-bottom:18px;}
+.expense-item{display:flex;justify-content:space-between;align-items:center;padding:12px;border-radius:10px;background:#fff;margin-bottom:10px;border-left:5px solid #4a90e2;box-shadow:0 6px 18px rgba(74,144,226,0.06);}
+.expense-item .left{display:flex;align-items:center;gap:12px;}
+.expense-item .icon{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px;background:#4a90e2;}
+.right-panel{width:320px;padding:20px;border-radius:12px;background:#fff;box-shadow:0 6px 20px rgba(160,102,255,0.06);}
+.login-body{display:flex;align-items:center;justify-content:center;height:100vh;background:linear-gradient(180deg,#eef1ff,#f8f7ff);}
+.login-container{width:360px;border-radius:12px;}
